@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tạo bài tập tự động</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- KHUNG TRÁI: FORM NHẬP DỮ LIỆU -->
+    <div class="form-container">
+      <h2>🧩 Tạo bài tập mới</h2>
+
+      <label for="mon">Môn học</label>
+      <input type="text" id="mon" placeholder="VD: Toán, Tiếng Việt">
+
+      <label for="lop">Lớp</label>
+      <input type="text" id="lop" placeholder="VD: Lớp 2, Lớp 5">
+
+      <label for="loai">Loại câu hỏi</label>
+      <input type="text" id="loai" placeholder="VD: Trắc nghiệm, Tự luận">
+
+      <label for="soLuong">Số lượng câu hỏi</label>
+      <input type="text" id="soLuong" placeholder="VD: 3 câu">
+
+      <label for="mucDo">Mức độ</label>
+      <select id="mucDo">
+        <option value="">-- Chọn mức độ --</option>
+        <option value="Nhận biết">Nhận biết</option>
+        <option value="Thông hiểu">Thông hiểu</option>
+        <option value="Vận dụng">Vận dụng</option>
+        <option value="Vận dụng cao">Vận dụng cao</option>
+      </select>
+
+      <label for="chuDe">Chủ đề</label>
+      <input type="text" id="chuDe" placeholder="VD: Phép cộng đặt tính">
+
+      <button onclick="guiDuLieu()">📤 Gửi dữ liệu</button>
+    </div>
+
+    <!-- KHUNG PHẢI: XEM TRƯỚC -->
+    <div class="preview-container" id="preview">
+      <h2>🔍 Xem trước</h2>
+      <p>Chưa có dữ liệu nào được nhập.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
