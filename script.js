@@ -1,6 +1,6 @@
 // ======== CONFIG ========
 // Thay link dưới bằng URL web app (đã deploy từ Google Apps Script)
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbyh6vc9HES8O74E9OaP66Q-5VX2jxH7baGIUF-zs_ERasCiUn5Ty-26SLncFxeRt26PCg/exec";
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxO2spVF2o-m401SnwvqsnRPstoJYmydlALMCEVduT4Se7UKkYDJundokhW0SvefdC-SQ/exec";
 
 // ======== GỬI DỮ LIỆU LÊN GOOGLE SHEET ========
 async function guiDuLieu() {
